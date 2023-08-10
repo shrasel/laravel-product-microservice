@@ -29,7 +29,7 @@ Follow these instructions to get the project up and running on your local machin
    ```bash
    git clone https://github.com/shrasel/laravel-product-microservice.git
    cd laravel-product-microservice
-```
+   ```
 
 ### Migrate and Seed the Database
 
