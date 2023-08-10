@@ -27,7 +27,7 @@ Follow these instructions to get the project up and running on your local machin
 1. Clone the repository:
 
    ```bash
-   git clone [https://github.com/your-username/laravel-product-microservice.git](https://github.com/shrasel/laravel-product-microservice)
+   git clone [https://github.com/shrasel/laravel-product-microservice.git](https://github.com/shrasel/laravel-product-microservice)
    cd laravel-product-microservice
 
 
