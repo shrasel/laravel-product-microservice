@@ -31,10 +31,47 @@ Follow these instructions to get the project up and running on your local machin
    cd laravel-product-microservice
 
 
-### Data seed
+### Migrate and Seed the Database
 
 If you want to seed 1000 record as dummy data then just run the fillowing command.
 
 ```
 php artisan db:seed
 ```
+
+## Installation
+
+### Install Dependencies
+
+```bash
+composer install
+
+
+### **Configure the Environment**
+Duplicate .env.example to .env and customize the environment variables as needed.
+
+
+### Migrate and Seed the Database
+
+If you want to seed 1000 record as dummy data then just run the fillowing command.
+
+```
+php artisan migrate --seed
+```
+
+### Usage
+
+Start the Laravel development server:
+
+```
+php artisan serve
+```
+
+Access the API documentation and endpoints via http://localhost:8000.
+
+### Contributing
+Contributions are welcome! Please follow these guidelines when making pull requests:
+
+- Fork the repository and create a new branch.
+- Make your changes and test thoroughly.
+- Submit a pull request, including a detailed description of your changes.
