@@ -43,9 +43,9 @@ php artisan db:seed
 
 ### Install Dependencies
 
-```bash
+```
 composer install
-
+```
 
 ### **Configure the Environment**
 Duplicate .env.example to .env and customize the environment variables as needed.
